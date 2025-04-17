@@ -129,6 +129,11 @@ body {
   .left {
     text-align: center;
   }
+  .left img {
+    width: 300px;
+    margin-left: 0px;
+    margin-bottom: -20px;
+  }
   .right {
     margin-top: 50px;
   }
@@ -139,11 +144,6 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  .left img {
-    width: 300px;
-    margin-left: -20px;
-    margin-bottom: -20px;
-  }
   .right form {
     width: 85%;
   }
