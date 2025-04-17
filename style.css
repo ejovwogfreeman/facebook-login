@@ -120,3 +120,18 @@ body {
   text-decoration: none;
   color: black;
 }
+
+@media screen and (max-width: 1200px) {
+  .container {
+    display: block;
+    text-align: center;
+  }
+
+  .right {
+    margin-top: 50px;
+  }
+
+  .right form {
+    margin: auto;
+  }
+}
