@@ -1,0 +1,122 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #f2f4f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.container {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  width: 80%;
+}
+
+.left {
+  font-size: 30px;
+  margin-top: -50px;
+}
+
+.left img {
+  width: 450px;
+  margin-left: -40px;
+  margin-bottom: -20px;
+}
+
+.right form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.right form input {
+  font-size: 20px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  outline: none;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.right form input[type="email"] {
+  width: 91%;
+}
+.right form input[type="password"] {
+  width: 91%;
+}
+
+.right form input[type="email"]:focus {
+  border: 1px solid #0866ff;
+}
+.right form input[type="password"]:focus {
+  border: 1px solid #0866ff;
+}
+
+.right form input[type="submit"] {
+  background-color: #0866ff;
+  color: white;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.right form input[type="submit"]:hover {
+  background-color: #3580f8;
+}
+
+.forgot-password {
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.forgot-password a {
+  text-decoration: none;
+  color: #0866ff;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+.create-account {
+  text-align: center;
+  padding: 30px;
+}
+
+.create-account a {
+  text-decoration: none;
+  background-color: #42b72a;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.create-account a:hover {
+  text-decoration: none;
+  background-color: #289312;
+}
+
+.create-page {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.create-page a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
