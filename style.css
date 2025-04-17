@@ -127,7 +127,7 @@ body {
   }
   .left {
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
   }
   .left img {
     width: 300px;
@@ -144,6 +144,11 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+  .left img {
+    width: 300px;
+    margin-left: 0px;
+    margin-bottom: -20px;
+  }
   .right form {
     width: 85%;
   }
