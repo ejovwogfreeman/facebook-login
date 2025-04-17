@@ -15,7 +15,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 20px;
   width: 80%;
 }
 
@@ -128,6 +127,7 @@ body {
   }
   .left {
     text-align: center;
+    font-size: 18px;
   }
   .left img {
     width: 300px;
