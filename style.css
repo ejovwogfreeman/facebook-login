@@ -126,12 +126,31 @@ body {
     display: block;
     text-align: center;
   }
-
+  .left {
+    text-align: center;
+  }
   .right {
     margin-top: 50px;
   }
 
   .right form {
     margin: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .left img {
+    width: 300px;
+    margin-left: -20px;
+    margin-bottom: -20px;
+  }
+  .right form {
+    width: 85%;
+  }
+  .right form input[type="email"] {
+    width: 89%;
+  }
+  .right form input[type="password"] {
+    width: 89%;
   }
 }
